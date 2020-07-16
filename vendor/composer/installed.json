@@ -1,0 +1,140 @@
+[
+    {
+        "name": "getresponse/getresponse",
+        "version": "0.0.2",
+        "version_normalized": "0.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/GetResponse/getresponse-api-php.git",
+            "reference": "a33b1081eeb7c0937e46383344068a2a6e847ce5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/GetResponse/getresponse-api-php/zipball/a33b1081eeb7c0937e46383344068a2a6e847ce5",
+            "reference": "a33b1081eeb7c0937e46383344068a2a6e847ce5",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.2.0"
+        },
+        "time": "2015-11-25T12:38:33+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/GetResponseAPI3.class.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Pawel Maslak",
+                "email": "pawel.maslak@getresponse.com"
+            },
+            {
+                "name": "Grzegorz Struczynski",
+                "email": "grzegorz.struczynski@getresponse.com"
+            }
+        ],
+        "description": "GetResponse API v3 client library.",
+        "homepage": "https://github.com/GetResponse/getresponse-api-php",
+        "keywords": [
+            "api",
+            "email",
+            "getresponse"
+        ]
+    },
+    {
+        "name": "dotzero/amocrm",
+        "version": "v0.3.28",
+        "version_normalized": "0.3.28.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dotzero/amocrm-php.git",
+            "reference": "d9f818acaf010fffdfe095f15c5e0ee4587a9385"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dotzero/amocrm-php/zipball/d9f818acaf010fffdfe095f15c5e0ee4587a9385",
+            "reference": "d9f818acaf010fffdfe095f15c5e0ee4587a9385",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.0.*"
+        },
+        "time": "2018-04-15T06:32:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "AmoCRM\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "dotzero",
+                "email": "mail@dotzero.ru"
+            }
+        ],
+        "description": "Удобный и быстрый клиент для работы с API amoCRM",
+        "keywords": [
+            "amoCRM",
+            "api",
+            "crm"
+        ]
+    },
+    {
+        "name": "popcornphp/fondy",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PopcornPHP/sdk-fondy.git",
+            "reference": "9b90f0c69236f164138a44e608ee4f9c8c56f41b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PopcornPHP/sdk-fondy/zipball/9b90f0c69236f164138a44e608ee4f9c8c56f41b",
+            "reference": "9b90f0c69236f164138a44e608ee4f9c8c56f41b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "time": "2017-11-06T14:49:25+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PopcornPHP\\Fondy\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alexander Shapoval",
+                "email": "popcornphp@gmail.com"
+            }
+        ],
+        "description": "Library for using API of fondy.eu"
+    }
+]

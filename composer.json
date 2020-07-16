@@ -1,0 +1,7 @@
+{
+    "require": {
+        "dotzero/amocrm": "^0.3.26",
+        "getresponse/getresponse": "*",
+        "popcornphp/fondy": "^1.0"
+    }
+}
